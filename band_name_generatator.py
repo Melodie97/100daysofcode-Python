@@ -4,7 +4,7 @@ city = input("Enter your city you grew up in: \n ")
 
 pet = input("Enter your pet's name: \n ")
 
-band_name = Name1 + " "+Name2
+band_name = city + " " +pet
 
 print("Congratulations! Your new band name is "+ band_name)
 
