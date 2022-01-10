@@ -20,7 +20,7 @@ string_total_love = str(total_love)
 
 total = int(string_total_true + string_total_love)
 if total < 10 or total > 90:
-    print (f"Your score is {total}, you go together like coke ans mentos.")
+    print (f"Your score is {total}, you go together like coke and mentos.")
 elif total >= 40 and total <= 50:
     print(f"Your score is {total}, you are alright together.")
 else:
