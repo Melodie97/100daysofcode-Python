@@ -9,8 +9,8 @@ for letter in chosen_word:
 print(display)
 
 guess = input("Guess a letter: ").lower()
-
-    # if guess == letter:
-    #     print("Right")
-    # else:
-    #     print("Wrong")
+for position in range(0, len(chosen_word)):
+    letter = chosen_word[position] 
+    if letter == guess:
+        display[position] = letter
+print(display)
