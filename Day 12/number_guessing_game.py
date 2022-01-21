@@ -24,16 +24,15 @@ def play_game():
             continue_game = False
         else:
             guess = int(input("Make a guess: "))
-            if difficulty == 'easy' or 'hard:
-                if guess > computer_guess:
-                    attempts -= 1
-                    print (f"Too high \nGuess again")
-                elif guess < computer_guess:
-                    attempts -= 1
-                    print (f"Too low \nGuess again")
-                else:
-                    print("You Win!")
-                    continue_game = False    
+            if guess > computer_guess:
+                attempts -= 1
+                print (f"Too high \nGuess again")
+            elif guess < computer_guess:
+                attempts -= 1
+                print (f"Too low \nGuess again")
+            else:
+                print("You Win!")
+                continue_game = False    
     
 
 play_game()
