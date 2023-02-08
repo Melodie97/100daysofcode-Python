@@ -6,4 +6,4 @@ pet = input("Enter your pet's name: \n ")
 
 band_name = city + " " + pet
 
-print("Congratulations! Your new band name is "+ band_name)
+print(f"Congratulations! Your new band name is {band_name}")
