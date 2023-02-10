@@ -8,6 +8,7 @@ def turn_right():
     
 def jump():
     turn_left()
+
     while wall_on_right():
         move()
     turn_right()
