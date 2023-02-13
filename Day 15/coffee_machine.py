@@ -53,6 +53,7 @@ def check_user_input(user_input):
 
 def check_resources():
     print(resources)
+    
     #still have to code up this one, but would do this later
 
 
