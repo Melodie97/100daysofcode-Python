@@ -23,6 +23,7 @@ while continue_game:
     print(f"Compare B: {person_two['name']}, a {person_two['description']}, from {person_two['country']}")
     
     user_choice = input("Who has more followers, 'A' or 'B'? ").lower()
+    
     if user_choice != 'a' and user_choice != 'b':
         print('You have entered an invalid choice, You lose!')
         continue_game = False
