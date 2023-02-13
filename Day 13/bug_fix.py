@@ -5,6 +5,7 @@
 #     if i == 20:
 #       print("You got it")
 # my_function()
+
 # # -------My Solution-----------
 # def my_function():
 #   for i in range(1, 21):
@@ -20,6 +21,7 @@
 # dice_num = randint(1, 6)
 # print(dice_num) #error occurs when the random integer is 6
 # print(dice_imgs[dice_num])
+
 # --------My Solution-----------
 # from random import randint
 # dice_imgs = ["❶", "❷", "❸", "❹", "❺", "❻"]
@@ -35,6 +37,7 @@
 #   print("You are a millenial.")
 # elif year > 1994:
 #   print("You are a Gen Z.")
+
 # --------My Solution-----------
 # year = int(input("What's your year of birth?"))
 # if year > 1980 and year <= 1994:
@@ -48,6 +51,7 @@
 # age = input("How old are you?") #no conversion of string to integer
 # if age > 18:
 # print("You can drive at age {age}.") #no indentation in the print statement and no use of f-string to call variable
+
 #--------My Solution-----------
 #   age = int(input("How old are you?"))
 # # if age > 18:
@@ -61,6 +65,7 @@
 # word_per_page == int(input("Number of words per page: ")) #use of comparison operator instead of assignment operator
 # total_words = pages * word_per_page
 # print(total_words)
+
 # --------My Solution-----------
 # # pages = 0
 # word_per_page = 0
@@ -80,6 +85,7 @@
 #   print(b_list)
 
 # mutate([1,2,3,5,8,13])
+
 # --------My Solution-----------
 # def mutate(a_list):
 #   b_list = []
