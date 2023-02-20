@@ -24,5 +24,4 @@ while game_is_on:
 
     snake.move()
 
-
 screen.exitonclick()
